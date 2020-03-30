@@ -48,7 +48,7 @@ const Homepage = () => {
           </h5>
         </div>
       </div>
-      <div className="flex flex-column flex-wrap justify-center items-center mw8 center pr4 pl4 vh-100">
+      <div className="flex flex-column flex-wrap justify-center items-center mw8 center pr4 pl4 vh-50">
         <h2 className="f2 lh-copy tc w-100">Support the project</h2>
         <h2 className="f2 lh-copy tc w-100">Share the project</h2>
         <h2 className="f2 lh-copy tc w-100">Thank You</h2>

@@ -11,7 +11,7 @@ const Survey = () => {
   useEffect(() => {
     if (submitClicked) {
       setIsLoading(true);
-      fetch("http://localhost:3001/survey", {
+      fetch("https://edaptdb-api.herokuapp.com/survey", {
         method: "post",
         mode: "cors",
         headers: {
@@ -73,8 +73,8 @@ const Survey = () => {
         submitClicked={submitClicked}
         handleSubmit={handleSubmit}
       />
-      <button className="button is-primary " onClick={clickedSubmit}>
-        Primary
+      <button className="button is-primary mt2 mb4 " onClick={clickedSubmit}>
+        Submit
       </button>
     </div>
   );

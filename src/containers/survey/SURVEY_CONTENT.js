@@ -15,6 +15,11 @@ export const DATA = {
           id: "1061ed5c-27f3-448a-b94a-ab74629ca297",
           answer: "Web Outlook (Email)",
           checked: false
+        },
+        {
+          id: "c93a0a6b-c640-42c4-b4e8-50ce291aca7d",
+          answer: "Other",
+          checked: false
         }
       ]
     },
@@ -32,6 +37,11 @@ export const DATA = {
         {
           id: "97cb8167-b93a-4ebb-bf0e-7f32282432e0",
           answer: "D2L ",
+          checked: false
+        },
+        {
+          id: "666c5286-fe79-4bd0-8917-f1151a4eb259",
+          answer: "Other",
           checked: false
         }
       ]
@@ -56,6 +66,11 @@ export const DATA = {
           id: "ab7ed85d-5cab-4426-b982-5f1f766bce6f",
           answer: "Google Hangouts ",
           checked: false
+        },
+        {
+          id: "5344d8a5-ca37-45a5-bdec-8e2fec3d62e5",
+          answer: "Other",
+          checked: false
         }
       ]
     },
@@ -74,6 +89,11 @@ export const DATA = {
           id: "bb3a7c35-f4f8-4658-ad3e-67b75b417569",
           answer: "Zoom  ",
           checked: false
+        },
+        {
+          id: "894107d5-939a-4d32-bbf4-923ec0a168df",
+          answer: "Other",
+          checked: false
         }
       ]
     },
@@ -85,6 +105,11 @@ export const DATA = {
         {
           id: "5fa77090-4e2f-461e-9e67-bc888648d98c",
           answer: "Screen Capture ",
+          checked: false
+        },
+        {
+          id: "24e3f700-794b-40b4-96a6-2f7e48394ddd",
+          answer: "Other",
           checked: false
         }
       ]
@@ -104,6 +129,11 @@ export const DATA = {
           id: "d3d7ae20-6e2a-492d-b2d9-8c71f5e373f2",
           answer: "Markbook",
           checked: false
+        },
+        {
+          id: "dcadac79-30d5-4e91-8d12-d1f01ebfd42e",
+          answer: "Other",
+          checked: false
         }
       ]
     },
@@ -116,6 +146,11 @@ export const DATA = {
         {
           id: "84176001-4a7d-4e63-9e89-553841595d09",
           answer: "Post Office Mail ",
+          checked: false
+        },
+        {
+          id: "ba6d510f-64d8-423e-8c8e-a33c39fae497",
+          answer: "Other",
           checked: false
         }
       ]
