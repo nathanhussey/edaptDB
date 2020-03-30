@@ -7,6 +7,7 @@ const QuestionCardList = ({ data, submitClicked, handleSubmit }) => {
       {data.map((element, i) => {
         return (
           <QuestionCard
+            key={element.id}
             data={element}
             submitClicked={submitClicked}
             handleSubmit={handleSubmit}

@@ -22,7 +22,7 @@ const TextAreaCard = ({
     <div className="flex flex-wrap w-100 justify-start br3 shadow-4 pa3 ma2 mw8 center  ">
       <h2 className="w-100">{question}</h2>
       <div className="field w-100 mt3">
-        <div clasName="control ">
+        <div className="control ">
           <textarea
             className="textarea is-info w-100"
             placeholder="Add comment"

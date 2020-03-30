@@ -3,6 +3,7 @@ import QuestionCardList from "../../components/questionCardList/QuestionCardList
 import ReactLoading from "react-loading";
 import SurveyThank from "../../components/surveyThank/SurveyThank";
 import { DATA } from "./SURVEY_CONTENT";
+import axios from "axios";
 
 const Survey = () => {
   const [surveyData, setSurveyData] = useState([]);
@@ -10,18 +11,20 @@ const Survey = () => {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     if (submitClicked) {
-      setIsLoading(true);
-      fetch("https://edaptdb-api.herokuapp.com/survey", {
+      //setIsLoading(true);
+      axios({
         method: "post",
-        mode: "cors",
-        headers: {
-          "Content-Type": "application/json"
+        url: "https://edaptdb-api.herokuapp.com/survey",
+        data: {
+          data: surveyData
         },
-        body: JSON.stringify({ data: surveyData })
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          Accept: "application/json"
+        }
       })
-        .then(res => res.json())
         .then(data => {
-          setIsLoading("success");
+          return setIsLoading("success");
         })
         .catch(error => {
           console.log(error);
