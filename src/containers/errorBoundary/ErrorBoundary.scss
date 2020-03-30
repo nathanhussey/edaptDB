@@ -1,0 +1,12 @@
+.error {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  background-color: var(--primary-1);
+
+  .item-text {
+    text-align: center;
+    width: 100%;
+  }
+}
