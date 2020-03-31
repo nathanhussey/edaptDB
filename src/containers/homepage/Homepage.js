@@ -24,26 +24,28 @@ const Homepage = () => {
         <img className="w-60 mt5 " src={TeamWork} alt="teacher"></img>
       </div>
       <div className=" flex flex-wrap justify-center items-center mt2 h4 w-100  bg-light-gray ">
-        <h2 className="mw8 w-100 tc f3 lh-copy pr4 pl4">
+        <h2 className="mw8 w-100 tc f4 lh-copy pr4 pl4">
           {" "}
-          Please share this site with teaching professionals{" "}
+          If your a teaching professional, researcher or have suggestions for
+          the project,{" "}
+          <a href="mailto:noveledu.adm@gmail.com">please reach out</a>{" "}
         </h2>
       </div>
       <div className="flex  flex-wrap  justify-center content-center pa4 vh-50">
-        <h2 className="w-100 tc f2 lh-copy">How the project works</h2>
+        <h2 className="w-100 tc f1 lh-copy mb5">How the project works</h2>
         <div className="flex flex-column flex-wrap justify-start  content-start w-30 ma2 pa3 shadow-4 br4">
-          <h4 className="w-100 f4 lh-copy tc">Collect </h4>
-          <h5 className="f6 tc ">
+          <h4 className="w-100 f2 lh-copy tc">Collect </h4>
+          <h5 className="f4 tc ">
             Collect survey data from kind participants who support the project
           </h5>
         </div>
         <div className="flex flex-column flex-wrap justify-start  content-start    w-30 ma2 pa3 shadow-4 br4">
-          <h4 className="w-100 f4 lh-copy tc">Analyze</h4>
-          <h5 className="f6 tc">Curate and analyze the data.</h5>
+          <h4 className="w-100 f2 lh-copy tc">Analyze</h4>
+          <h5 className="f4 tc">Curate and analyze the data.</h5>
         </div>
         <div className="flex flex-column flex-wrap justify-start  content-start   w-30 ma2 pa3 shadow-4 br4">
-          <h4 className="w-100 f4 lh-copy tc">Share</h4>
-          <h5 className="f6 tc ">
+          <h4 className="w-100 f2 lh-copy tc">Share</h4>
+          <h5 className="f4 tc ">
             Create data visualizations and other methods so others may learn
           </h5>
         </div>

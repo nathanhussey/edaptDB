@@ -11,18 +11,14 @@ const Survey = () => {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     if (submitClicked) {
-      //setIsLoading(true);
-      axios({
-        method: "post",
-        url: "https://edaptdb-api.herokuapp.com/survey",
-        data: {
-          data: surveyData
-        },
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          Accept: "application/json"
-        }
-      })
+      setIsLoading(true);
+      axios
+        .post(
+          "https://edaptdb-api.herokuapp.com/survey",
+          JSON.stringify({
+            data: surveyData
+          })
+        )
         .then(data => {
           return setIsLoading("success");
         })
